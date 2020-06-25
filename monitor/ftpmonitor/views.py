@@ -44,6 +44,7 @@ def index(request):
     #     global instance
     #     global parent
         for ml in range(len(dirlist)):
+            
     #
             dr = dirlist[ml].split("/")
             dr.remove('', )
